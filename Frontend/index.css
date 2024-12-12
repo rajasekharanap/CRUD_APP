@@ -1,0 +1,302 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #e1e6ea;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #110303;
+}
+
+.nav-links {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links li {
+    list-style: none;
+    color: #535050;
+    font-size: 16px;
+    transition: color 0.3s ease;
+
+}
+
+.nav-links a {
+    text-decoration: none;
+}
+
+.signup-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.signup-container h2 {
+    text-align: center;
+  }
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-element {
+    margin-bottom: 20px;
+}
+
+.signup-element label {
+    font-weight: bold;
+}
+
+.signup-element input {
+    width: 90%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #171515;
+    border-radius: 5px;
+}
+
+.signup-button {
+    width: 95%;
+    padding: 10px;
+    background-color: #007BFF;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+}
+
+.signup-message {
+    margin-top: 10px;
+    color: #FF0000;
+    text-align: center;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: #ebe6e6;
+}
+
+.login-form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-input-group {
+    margin-bottom: 15px;
+}
+
+.login-input-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.login-input-group input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login-message {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 14px;
+}
+
+.login-btn {
+    width: 95%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: black;
+}
+
+.create-user-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f8d1d1;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.create-user-container h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.create-user-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.create-user-form label {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+}
+
+.create-user-form input{
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.create-user-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.create-user-container p {
+    font-size: 14px;
+    color: #666;
+}
+
+.admin-container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #eed3d3;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.admin-container h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+}  
+
+.admin-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.search-bar {
+    padding: 8px;
+    width: 60%;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.logout-button {
+    background-color: #c0392b;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+.add-user-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+.user-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.user-table th, .user-table td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 2pz solid #ddd;
+}
+
+.user-tablet th {
+    background-color: #f1f1f1;
+}
+
+.active-button {
+    padding: 5px 10px;
+    font-size: 14px;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .inactive-button {
+    padding: 5px 10px;
+    font-size: 14px;
+    color: white;
+    background-color: #ff4d4d;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .active-button:hover {
+    background-color: #45a049;
+  }
+  
+  .inactive-button:hover {
+    background-color: #ff3333;
+  }
+  
+  .delete-button {
+    padding: 5px 10px;
+    font-size: 14px;
+    color: white;
+    background-color: #e74c3c;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .delete-button:hover {
+    background-color: #c0392b;
+  }
+
